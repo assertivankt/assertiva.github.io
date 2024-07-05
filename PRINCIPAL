@@ -1,0 +1,95 @@
+/* Ajuste de tamanho máximo do logo no cabeçalho */
+#header .header-logo img {
+    max-height: 80px; /* Reduzi um pouco o tamanho máximo do logo */
+    transition: transform 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Efeito de escala no logo ao passar o mouse */
+#header .header-logo img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do logo em 10% */
+}
+
+/* Ajuste da imagem dos produtos */
+section#section-produtos .product-thumb-info-image img,
+body#page_produtos .product-thumb-info-image img {
+    height: auto;
+    object-fit: cover; /* Melhorar o ajuste da imagem dentro do contêiner */
+    width: 100%;
+}
+
+/* Fundo antes da imagem do produto */
+.product .product-thumb-info .product-thumb-info-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffd590; /* Cor de fundo antes da imagem do produto */
+    z-index: -1; /* Empurra para trás da imagem */
+    transform-origin: top left;
+    transform: perspective(800px) rotateX(10deg); /* Efeito de câmera 3D */
+}
+
+/* Ajuste de altura da linha para cabeçalhos h2 */
+h2 {
+    line-height: 2.5rem; /* Reduzi um pouco a altura da linha */
+}
+
+/* Margem superior do conteúdo principal quando não há capa */
+body.sem_capa .main {
+    margin-top: 100px !important; /* Ajustei a margem superior quando não há capa */
+}
+
+/* Layout responsivo para miniaturas de produtos em dispositivos menores */
+@media (max-width: 720px) {
+    .thumb-info.thumb-info-no-borders .thumb-info-wrapper {
+        flex-basis: 100%; /* Melhorei a responsividade das miniaturas */
+    }
+}
+
+/* Cor de fundo do cabeçalho quando fixo na parte inferior */
+#header .header-body.header-body-bottom-border-fixed {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Fundo semitransparente */
+}
+
+/* Cor de fundo dos ícones sociais */
+.social-icons:not(.social-icons-opacity-light):not(.social-icons-transparent):not(.social-icons-clean):not(.social-icons-clean-with-border):not(.social-icons-dark):not(.social-icons-dark-2):not(.custom-social-icons) li a {
+    background-color: #000; /* Cor de fundo dos ícones sociais */
+}
+
+/* Estilização de links do cabeçalho quando hover ou ativo */
+@media (min-width: 700px) {
+    #header .header-nav.header-nav-links nav > ul > li:hover > a,
+    #header .header-nav.header-nav-links nav > ul > li > a.active {
+        border-color: #ffd08b; /* Cor da borda do link do cabeçalho quando hover ou ativo */
+    }
+
+    .texto-slide.slideshow-texto h2 {
+        font-size: 2rem !important; /* Tamanho da fonte do cabeçalho no slideshow */
+    }
+}
+
+/* Cor do texto e ícones adicionais no cabeçalho */
+.header-extra-info-text *,
+.header-extra-info-icon * {
+    color: #ffce89 !important; /* Cor do texto e ícones adicionais no cabeçalho */
+}
+
+/* Cor de fundo do botão de colapso do menu no cabeçalho */
+#header .header-btn-collapse-nav {
+    background-color: #ffce89; /* Cor de fundo do botão de colapso do menu no cabeçalho */
+}
+
+/* Estilo padrão para ícones */
+.fab,
+.far {
+    font-weight: 400;
+    color: #fff; /* Cor do ícone */
+}
+
+/* Cor do texto secundário */
+.text-color-secondary,
+.text-secondary {
+    color: #ffffff !important; /* Cor do texto secundário */
+}
