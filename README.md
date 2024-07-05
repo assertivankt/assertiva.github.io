@@ -1,7 +1,7 @@
 <h1 align="center">Assertiva Soluções Contábeis</h1>
 
 <p align="center">
-  <img src="https://example.com/your-logo.png" alt="Logo da Assertiva">
+  <img src="file:///C:/Users/Assertiva/Downloads/408763693_339025005430930_3403451229905279307_n.jpg" alt="Logo da Assertiva">
 </p>
 
 <p align="center">
