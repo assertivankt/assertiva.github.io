@@ -1,10 +1,27 @@
-# Assertiva Soluções Contábeis
+<h1 align="center">Assertiva Soluções Contábeis</h1>
 
-Este repositório contém informações e recursos para o novo site da Assertiva Soluções Contábeis.
+<p align="center">
+  <img src="https://example.com/your-logo.png" alt="Logo da Assertiva">
+</p>
+
+<p align="center">
+  <em>Serviços especializados em contabilidade para empresas.</em>
+</p>
+
+<p align="center">
+  <a href="#descricao">Descrição</a> •
+  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> •
+  <a href="#como-acessar">Como Acessar</a> •
+  <a href="#autor">Autor</a> •
+  <a href="#contribuicao">Contribuição</a> •
+  <a href="#licenca">Licença</a>
+</p>
+
+---
 
 ## Descrição
 
-A Assertiva Soluções Contábeis oferece serviços especializados em contabilidade para empresas de todos os tamanhos, focando em soluções personalizadas e inovadoras.
+A Assertiva Soluções Contábeis oferece serviços especializados em contabilidade, focando em soluções personalizadas e inovadoras para empresas de todos os tamanhos.
 
 ## Conteúdo
 
@@ -17,7 +34,7 @@ A Assertiva Soluções Contábeis oferece serviços especializados em contabilid
 
 - HTML5
 - CSS3
-- JavaScript (opcional, dependendo das necessidades do projeto)
+- Python (para automação de processos contábeis, se aplicável)
 
 ## Como Acessar
 
@@ -36,4 +53,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests p
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
-# assertiva.github.io
